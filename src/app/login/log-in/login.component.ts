@@ -1,9 +1,10 @@
-import { ChangeDetectionStrategy, Component } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-login',
   imports: [],
   templateUrl: './login.component.html',
-  changeDetection: ChangeDetectionStrategy.OnPush,
+  styleUrl: './loginStyle.css' 
+  
 })
-export class LoginComponent { }
+export default class LoginComponent { }
